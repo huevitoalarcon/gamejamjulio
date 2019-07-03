@@ -14,6 +14,10 @@ __meta__ = {
 }
 
 [node name="Barrita" type="KinematicBody2D" parent="."]
+position = Vector2( 0, -512 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="Barrita"]
 position = Vector2( 640, 672 )
