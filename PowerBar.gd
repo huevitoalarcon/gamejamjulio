@@ -13,6 +13,7 @@ func _process(delta):
 	elif contador <= -50:
 		direccion=1
 		
-	$Sprite.position.x +=direccion*5
+	$Barrita.position.x +=direccion*5 
 	
 	print (contador)
+	$Label.text=str(contador)
