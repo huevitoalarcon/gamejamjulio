@@ -9,9 +9,9 @@ func _process(delta):
 	
 	contador +=direccion
 	if contador >=50:
-		direccion= -1
+		direccion= -3
 	elif contador <= -50:
-		direccion=1
+		direccion=3
 		
 	$Barrita.position.x +=direccion*5 
 	

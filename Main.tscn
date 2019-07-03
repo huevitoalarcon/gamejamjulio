@@ -4,4 +4,18 @@
 
 [node name="Main" type="Node2D"]
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 354.0
+margin_top = 640.0
+margin_right = 928.0
+margin_bottom = 704.0
+color = Color( 1, 0.498039, 0.498039, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+margin_left = 544.0
+margin_top = 640.0
+margin_right = 738.0
+margin_bottom = 704.0
+color = Color( 0.498039, 1, 0.505882, 1 )
+
 [node name="PowerBar" parent="." instance=ExtResource( 1 )]
